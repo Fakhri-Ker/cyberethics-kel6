@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Adab Digital: Etika di Era Teknologi Informasi (Cyberethics)</title>
+  <meta name="description" content="Belajar cyberethics dengan bahasa sederhana: etika, norma, dan hukum di dunia maya, lengkap dengan video ringkasan, kuis, dan perspektif Islam.">
+  <meta name="keywords" content="cyberethics, etika dunia maya, etika teknologi informasi, adab digital, cybercrime, PAI">
+  <meta property="og:title" content="Adab Digital: Etika di Era Teknologi Informasi">
+  <meta property="og:description" content="Materi cyberethics untuk pelajar SMP-SMA dengan video ringkasan dan kuis.">
+  <meta property="og:type" content="website">
+  <script>
+    // Kunjungan pertama dalam sesi: tampilkan layar Get Started dulu (mesin pencari dilewati)
+    (function () {
+      var bot = /bot|crawl|spider|slurp|lighthouse/i.test(navigator.userAgent);
+      var sudah = false;
+      try { sudah = sessionStorage.getItem("masuk") === "1"; } catch (e) { sudah = true; }
+      if (!sudah && !bot) location.replace("start.html");
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Literata:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="beranda" data-author="[Nama Anggota 1]">
+  <a class="skip" href="#konten">Lewati ke konten</a>
+
+  <main id="konten">
+    <section class="hero">
+      <div class="wrap hero-in">
+        <div>
+          <h1>Dunia maya punya adab yang sama dengan dunia nyata</h1>
+          <p class="lead">Rangkuman cyberethics untuk pelajar: bagaimana bersikap, bertanggung jawab, dan melindungi orang lain saat memakai teknologi informasi.</p>
+          <div class="aksi">
+            <a class="btn utama" href="cyberethics.html">Mulai belajar</a>
+            <a class="btn tipis" href="kuis.html">Coba kuis</a>
+          </div>
+        </div>
+        <div>
+          <div class="video-box">
+            <video id="video" preload="metadata" playsinline poster="assets/poster.jpg" controls>
+              <source src="assets/adab-digital.mp4" type="video/mp4">
+            </video>
+            <button class="unmute" id="unmute" type="button">Aktifkan suara</button>
+            <div class="video-fallback"><p><strong>Video belum tersedia.</strong><br>Simpan file video di <code>assets/adab-digital.mp4</code>.</p></div>
+          </div>
+          <p class="caption">Video ringkasan berisi poin utama. Penjelasan lengkap ada di halaman materi.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap ringkas">
+      <div><b>4</b><span>fase perkembangan cyberethics</span></div>
+      <div><b>5</b><span>dimensi moral di era informasi</span></div>
+      <div><b>3</b><span>sumber moral: agama, filsafat, hukum</span></div>
+    </div>
+
+    <section class="blok">
+      <div class="wrap">
+        <h2>Tiga hal yang perlu diingat</h2>
+        <ul class="poin">
+          <li><strong>Baik di dunia nyata, baik di dunia maya</strong><span>Norma kesopanan, kesusilaan, sosial, dan hukum berlaku sama di kedua ruang.</span></li>
+          <li><strong>Teknologi membawa manfaat dan celah</strong><span>Alat yang sama bisa mempermudah hidup, sekaligus dipakai untuk pencurian data dan penipuan.</span></li>
+          <li><strong>Etika punya tiga sumber</strong><span>Agama, etika filosofis, dan hukum menjadi dasar kita menilai apa yang pantas dilakukan.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="blok">
+      <div class="wrap">
+        <h2>Jelajahi materi</h2>
+        <div class="menu">
+          <a href="cyberethics.html"><strong>Apa itu Cyberethics</strong><span>Pengertian dan empat fase perkembangannya.</span></a>
+          <a href="cyberspace.html"><strong>Perkembangan Cyberspace</strong><span>Dari revolusi industri ke revolusi digital.</span></a>
+          <a href="real-space.html"><strong>Dunia Nyata dan Dunia Maya</strong><span>Norma yang sama di dua ruang.</span></a>
+          <a href="dimensi-moral.html"><strong>Sistem Moral dan Lima Dimensi</strong><span>Privasi, hak milik, kualitas sistem, dan tanggung jawab.</span></a>
+          <a href="cybercrime.html"><strong>Cybercrime dan Kasus</strong><span>Jenis kejahatan dan cara menyikapinya.</span></a>
+          <a href="perspektif-islam.html"><strong>Perspektif Islam</strong><span>Akhlak, tabayyun, dan amanah di dunia digital.</span></a>
+          <a href="kuis.html"><strong>Kuis</strong><span>Uji pemahamanmu setelah membaca.</span></a>
+          <a href="tim.html"><strong>Tim dan Sumber</strong><span>Siapa yang menyusun dan dari mana materinya.</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
